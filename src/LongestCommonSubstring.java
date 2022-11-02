@@ -5,7 +5,7 @@
  * @Date: 18/10/2022 23:27
  * @Version: v1.0
  */
-public class LongestCommonSubsequence {
+class LongestCommonSubsequence {
 
     //1143. Longest Common Subsequence
     public static void main(String[] args) {

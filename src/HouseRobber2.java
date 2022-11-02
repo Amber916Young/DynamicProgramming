@@ -26,8 +26,9 @@ public class HouseRobber2 {
         int n = nums.length;
         if (n == 1) return nums[0];
         int[] n1 = new int[nums.length-1];
-        int[] n2 = new int[nums.length-1];
         System.arraycopy(nums, 1, n1, 0, nums.length - 1);
+
+        int[] n2 = new int[nums.length-1];
         System.arraycopy(nums, 0, n2, 0, nums.length - 1);
         int ans = help(n1);
         int ans2 = help(n2);
